@@ -14,7 +14,7 @@ jobs:
       - uses: dkershner6/vercel-set-env-action@v1
         with:
           token: ${{ secrets.VERCEL_TOKEN }}
-          projectName: educite-landing-page2
+          projectName: educite_landing_page2
           envVariableKeys: CLIENT_EMAIL,PRIVATE_KEY,SPREADSHEET_ID
         env:
           CLIENT_EMAIL: ${{ secrets.CLIENT_EMAIL }}
